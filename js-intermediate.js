@@ -153,14 +153,18 @@ var numbersToAdd3 = []
 
 
 const addNumbers = (array) =>{
-    
-    let sum = array[0];
-    for(let i=1;i<array.length;i++){
+    if (array === []) {
+        return []
+    } else {
+        let sum = array[0];
+        for(let i=1;i<array.length;i++){
         sum = sum + array[i]
         array[i] = sum
     }
     return array
+    }
+    
 }
 console.log(addNumbers(numbersToAdd2))
-
-
+console.log(addNumbers(numbersToAdd1))
+console.log(addNumbers(numbersToAdd3))
