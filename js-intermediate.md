@@ -87,7 +87,8 @@ Answer the following questions. First, without external resources. Challenge you
 
   Your answer: -
 
-  Researched answer:
+  Researched answer: 1. Media Queries 2. Fluid grids 3.Flexible images.
+  
 
 
 ### STRETCH: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
